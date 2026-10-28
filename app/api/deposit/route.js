@@ -7,7 +7,7 @@ export async function POST(request) {
 
     if (!phone || !amount || amount <= 0) {
       return NextResponse.json(
-        { error: 'Nyamuneka shyiramo nimero n'amafaranga biyazwi.' },
+        { error: "Nyamuneka shyiramo nimero n'amafaranga biyazwi." },
         { status: 400 }
       );
     }
